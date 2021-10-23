@@ -19,6 +19,8 @@ const useStyle = makeStyles((theme) => ({
     backgroundColor: theme.palette.primary.main,
     color: "white",
     overflowY: "scroll",
+    position: "sticky",
+    top: 0,
     [theme.breakpoints.up("sm")]: {
       backgroundColor: "white",
       color: "#555",
